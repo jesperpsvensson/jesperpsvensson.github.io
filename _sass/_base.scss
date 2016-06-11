@@ -98,8 +98,9 @@ a {
     font-weight: bold;
 
     &:hover {
-        color: $brand-color;
+        color: $text-color;
         text-decoration: underline;
+        border-bottom: 1px solid #ffff99;
     }
 }
 
