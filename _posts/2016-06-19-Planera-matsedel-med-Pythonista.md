@@ -10,16 +10,16 @@ Jag och min sambo brukar planera en veckomatsedel varje helg för kommande vecka
 Detta är så otroligt tråkigt och tidskrävande så jag gjorde ett litet python-skript i Pythonista för att automatisera hela processen, dels välja maträtter och sedan automatiskt generera en inköpslista och skicka den till Påminnelser. Givetvis är det lite pill med att hela tiden lägga till nya maträtter och ingredienser men så småningom har vi ett helt bibliotek av rätter och då underlättar detta mycket.
 
 {% highlight python %}
-  import dialogs
-  import console
-  import reminders
-  import webbrowser
+import dialogs
+import console
+import reminders
+import webbrowser
 
-  # TODO: kontrollera så inte varan redan finns i Påminnelser
-  # TODO: skapa en anteckning med planering i Drafts
-  # TODO: lägg till lista med basvaror
+# TODO: kontrollera så inte varan redan finns i Påminnelser
+# TODO: skapa en anteckning med planering i Drafts
+# TODO: lägg till lista med basvaror
 
-  dishes = {1: ['köttfärs', 'tomatkross', 'lök', 'pasta'],
+dishes = {1: ['köttfärs', 'tomatkross', 'lök', 'pasta'],
           2: ['köttfärs', 'majs', 'tomat', 'gurka', 'lök', 'tacosås', 'tacokrydda', 'tacobröd', 'tacochips'],
           3: ['ägg', 'mjölk', 'mjöl', 'steksmör', 'sylt'],
           4: ['falukorv', 'pasta'],
@@ -32,7 +32,7 @@ Detta är så otroligt tråkigt och tidskrävande så jag gjorde ett litet pytho
           11: ['köttfärs', 'ägg', 'ströbröd', 'potatis', 'matgrädde'],
           12: ['tonfisk', 'gurka', 'tomat', 'sallad', 'kikärtor', 'kidneybönor', 'salladsdressing']}
 
-  names = ['Köttfärssås med pasta',
+names = ['Köttfärssås med pasta',
          'Tacos',
          'Pannkakor',
          'Falukorv med pasta',
@@ -45,66 +45,66 @@ Detta är så otroligt tråkigt och tidskrävande så jag gjorde ett litet pytho
          'Pannbiff med potatis',
          'Tonfisksallad']
 
-  shopping_list = []
+shopping_list = []
 
-  # lägger till inköpslista i Påminnelser
-  def add_to_reminder(s_list):
-    all_calendars = reminders.get_all_calendars()
-    for calendar in all_calendars:
-      if calendar.title == 'Mat':
-        for i in s_list:
-          r = reminders.Reminder(calendar)
-          r.title = i
-          r.save()
-    #console.alert('Klart','Alla varor har lagts till i Påminnelser...','OK')
-    #webbrowser.open('x-apple-reminder://')
-    print('\n')
-    console.write_link('Gå till Påminnelser', 'x-apple-reminder://')
-    print('\n')
+# lägger till inköpslista i Påminnelser
+def add_to_reminder(s_list):
+  all_calendars = reminders.get_all_calendars()
+  for calendar in all_calendars:
+    if calendar.title == 'Mat':
+      for i in s_list:
+        r = reminders.Reminder(calendar)
+        r.title = i
+        r.save()
+  #console.alert('Klart','Alla varor har lagts till i Påminnelser...','OK')
+  #webbrowser.open('x-apple-reminder://')
+  print('\n')
+  console.write_link('Gå till Påminnelser', 'x-apple-reminder://')
+  print('\n')
 
-  # redigerar och skapar den slutgiltiga inköpslistan
-  def create_shopping_list():
-    print('\n\nInköpslista:\n')
-    mod_shopping_list = dialogs.edit_list_dialog('Lista', shopping_list)
-    for i in mod_shopping_list:
-      print(i)
-    add_to_reminder(mod_shopping_list)
+# redigerar och skapar den slutgiltiga inköpslistan
+def create_shopping_list():
+  print('\n\nInköpslista:\n')
+  mod_shopping_list = dialogs.edit_list_dialog('Lista', shopping_list)
+  for i in mod_shopping_list:
+    print(i)
+  add_to_reminder(mod_shopping_list)
 
-  # lägger till varor i inköpslistan
-  def add_ingrediens(l):
-    for i in l:
-      if i in shopping_list:
-        pass
-      else:
-        shopping_list.append(i)
+# lägger till varor i inköpslistan
+def add_ingrediens(l):
+  for i in l:
+    if i in shopping_list:
+      pass
+    else:
+      shopping_list.append(i)
 
-  # skriver rätter i konsolen
-  def print_names():
-    x = 0
-    while x < len(names):
-      print(str(x + 1) + '. ' + names[x])
-      x = x + 1
-    choose()
+# skriver rätter i konsolen
+def print_names():
+  x = 0
+  while x < len(names):
+    print(str(x + 1) + '. ' + names[x])
+    x = x + 1
+  choose()
 
-  # lägger till alla ingredienser från de valda rätterna
-  def add_to_shopping_list(chosen_dishes):
-    for i in chosen_dishes:
-      add_ingrediens(dishes[int(i)])
-    create_shopping_list()
+# lägger till alla ingredienser från de valda rätterna
+def add_to_shopping_list(chosen_dishes):
+  for i in chosen_dishes:
+    add_ingrediens(dishes[int(i)])
+  create_shopping_list()
 
-  # låter användare välja rätter, val separeras med ett mellanslag
-  def choose():
-    chosen_dishes = []
-    choice = input('\nVälj rätter: ')
-    chosen_dishes = choice.split()
-    add_to_shopping_list(chosen_dishes)
+# låter användare välja rätter, val separeras med ett mellanslag
+def choose():
+  chosen_dishes = []
+  choice = input('\nVälj rätter: ')
+  chosen_dishes = choice.split()
+  add_to_shopping_list(chosen_dishes)
 
-  # startar skriptet
-  def main():
-    console.clear()
-    console.set_font('Avenir', 20)
-    print_names()
+# startar skriptet
+def main():
+  console.clear()
+  console.set_font('Avenir', 20)
+  print_names()
 
-  if __name__ == '__main__':
-    main()
+if __name__ == '__main__':
+  main()
 {% endhighlight %}
