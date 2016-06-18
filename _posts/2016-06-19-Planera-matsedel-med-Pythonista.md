@@ -9,6 +9,7 @@ Jag och min sambo brukar planera en veckomatsedel varje helg för kommande vecka
 
 Detta är så otroligt tråkigt och tidskrävande så jag gjorde ett litet python-skript i Pythonista för att automatisera hela processen, dels välja maträtter och sedan automatiskt generera en inköpslista och skicka den till Påminnelser. Givetvis är det lite pill med att hela tiden lägga till nya maträtter och ingredienser men så småningom har vi ett helt bibliotek av rätter och då underlättar detta mycket.
 
+{% highlight python %}
   import dialogs
   import console
   import reminders
@@ -106,3 +107,4 @@ Detta är så otroligt tråkigt och tidskrävande så jag gjorde ett litet pytho
 
   if __name__ == '__main__':
   main()
+{% endhighlight %}
