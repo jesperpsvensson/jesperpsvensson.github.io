@@ -110,4 +110,5 @@ if __name__ == '__main__':
 {% endhighlight %}
 
 Det är bara att kopiera skriptet och klistra in det i Pythonista och trycka "Run". Val av maträtter sker genom att skriva siffran som föregår maträtten i lista och sedan slå mellanslag för att välja nästa. Inköpslistan som genereras går att ändra innan den skickas till Påminnelser genom att jag använder `dialogs.edit_list_dialog()`. Den slutgigltiga listan skickas sedan till Påminnelser och det finns en lista där med titleln *"Mat"*.
+
 Än så länge finns bara mina paradrätter inlagd och inte min sambos mer avancerade matkonster. Men vad det lider så skall nog de finnas på plats också. 
