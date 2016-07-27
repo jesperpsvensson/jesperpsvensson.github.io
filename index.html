@@ -7,18 +7,15 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
+        {{ post.date | date: "%Y-%m-%d" }} >
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }} > </span>
+        <span class="post-meta"> </span>
         <p class="excerpt">{{ post.excerpt }}</p>
         <hr>
       </li>
     {% endfor %}
   </ul>
-  <!--<h2 class="bold">Senaste projekten</h2>
-  <p class="bold">Prick - räkna prickarna</p>
-  <p class="light-text">
-    Ett litet spel för de yngre barnen som lär sig siffrorna. Skrivet i <a href="#">Python</a> och kräver <a href="#">Pythonista</a> för iOS. Projektet hittar ni på <a href="https://github.com/jesperpsvensson/Pythonista-scripts" target="_blank">GitHub</a>.
-  </p> -->
+
   <h2 class="bold">Kontakt</h2>
   <p>
     Ni hittar mig på de flesta sociala nätverk men framförallt på <a href="http://twitter.com/jesperpsvensson">Twitter</a> och <a href="http://instagram.com/jesperpsvensson">Instagram</a>, det går även bra att skriva några rader via <a href="mailto:jesperpsvensson@gmail.com">e-post</a>.
