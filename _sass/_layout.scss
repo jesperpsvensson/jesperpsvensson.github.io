@@ -127,6 +127,10 @@
     > li {
         margin-bottom: $spacing-unit/4;
     }
+
+    > li p {
+      font-family: Georgia;
+    }
 }
 
 .post-meta {
