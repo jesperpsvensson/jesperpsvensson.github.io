@@ -144,7 +144,7 @@
  */
  .post {
    text-align: left;
-   font-family: Georgia;
+
  }
 
 .post-header {
@@ -163,6 +163,7 @@
 }
 
 .post-content {
+    font-family: Georgia;
     margin-bottom: $spacing-unit;
 
     h2 {
