@@ -4,17 +4,13 @@ layout: default
 
 <div class="home">
 
-  <p>Hej, jag heter <span class="bold">Jesper.</span> Lantbrukarson med karriär i maskinhandlarbranshen. Sambo och pappa, är uppväxt och bor mitt i Västergötland.</p>
-  <p>
-    Stort intresse för teknik och kodning. Gillar att lösa problem och bygga saker för webben, mobilen eller datorn.
-  </p>
-
-  <h2 class="bold marginTop">Senaste inläggen</h2>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
         <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }} > </span>
+        {{ post.excerpt }}
+        <hr>
       </li>
     {% endfor %}
   </ul>
