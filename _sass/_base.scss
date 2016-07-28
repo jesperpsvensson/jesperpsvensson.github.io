@@ -98,10 +98,10 @@ a {
     font-weight: bold;
 
     &:hover {
-        color: $text-color;
-        background-color: lighten($brand-color, 50%);
-        border-top: 2px solid lighten($brand-color, 50%);
-        border-bottom: 2px solid lighten($brand-color, 50%);
+        color: #eee;
+        background-color: $brand-color;
+        border-top: 2px solid $brand-color;
+        border-bottom: 2px solid $brand-color;
     }
 }
 
