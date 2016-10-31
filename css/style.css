@@ -2,7 +2,7 @@ body {
   font-family: "Lato",'Quicksand';
   color: #464646;;
   background-color: #fdffff;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 p {
@@ -61,7 +61,7 @@ footer p a:hover {
 #title {
   font-family: "Lato" ,'Courier New';
   font-size:80px;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: -0.3px;
 }
 
