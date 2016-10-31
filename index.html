@@ -1,23 +1,99 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt:100,300,400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:100,300,400,500" rel="stylesheet">
 
-<div class="home">
-  
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="excerpt">{{ post.excerpt }}</p>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JS Digital - mobilt + webb</title>
+  </head>
+  <body>
+    <div id="topDiv">
+      <div class="container navbar-fixed-top" id="logoDiv">
+        <a href="index.html"><img src="jsdi.png" id="meny"></a>
+        <nav>
+          <ul>
+            <li id="description">mobilt + webb</li>
+            <li id="emaillink"><a href="">jesper@jsdi.se</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+      <section id="projfirstSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <img src="Bilder/jsdigiwebb3.png" class="img-responsive">
+              <h1 class="bold">JS digital.se</h1>
+              <div class="border marginBottom"></div>
+              <h4 class="marginBottom bold">September 2016 -</h4>
+              <h4 class="marginBottom bold">Min roll: design och kod.</h4>
+              <p>Min webbsida som jag hela tiden utvecklar och uppdaterar. Sidan är skriven i HTML, CSS och med hjälp av lite JQuery och Bootstrap.</p>
+              <p>Fotot på överst på hemsidan är hämtad från <a href="https://unsplash.com/" target="_blank">Unsplashed</a> och tagen av <a href="https://unsplash.com/@xeniuss" target="_blank">Andrew Illarionov</a>.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
-      </li>
-    {% endfor %}
-  </ul>
+    <section id="fourthSection">
+      <footer>
+        <div class="container">
+          <div class="row marginTop">
 
-  <h2 class="bold">Kontakt</h2>
-  <p>
-    Ni hittar mig på de flesta sociala nätverk men framförallt på <a href="http://twitter.com/jesperpsvensson">Twitter</a> och <a href="http://instagram.com/jesperpsvensson">Instagram</a>, det går även bra att skriva några rader via <a href="mailto:jesperpsvensson@gmail.com">e-post</a>.
-  </p>
-</div>
+              <p class="center"><a href="http://twitter.com/jesperpsvensson" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                <a href="http://instagram.com/jesperpsvensson" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                <a href="mailto:jesperpsvensson@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+              </p>
+              <p class="center"><small>&copy; JS Digital 2016 | <a id="top">Till sidans topp</a></small></p>
+
+          </div>
+
+        </div>
+      </footer>
+    </section>
+
+
+
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+      var wh = $(window).height();
+      $("#firstSection").css('min-height', wh - 120 + "px");
+      $("#secondSection").css('min-height', wh / 2 + "px");
+      $("#fourthSection").css('min-height', wh / 4 + "px");
+      $("#title").css('margin-top', $(window).height() / 4 + 'px');
+
+      $("#more").click(function() {
+          $('html, body').animate({
+              scrollTop: $("#secondSection").offset().top
+          }, 1500);
+      });
+      $("#contact").click(function() {
+          $('html, body').animate({
+              scrollTop: $("#fourthSection").offset().top
+          }, 2000);
+      });
+      $("#top").click(function() {
+          $('html, body').animate({
+              scrollTop: $("html").offset().top
+          }, 1500);
+      });
+
+
+    </script>
+
+  </body>
+</html>

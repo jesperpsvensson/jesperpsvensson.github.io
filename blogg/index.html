@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="excerpt">{{ post.excerpt }}</p>
+
+
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2 class="bold">Kontakt</h2>
+  <p>
+    Ni hittar mig på de flesta sociala nätverk men framförallt på <a href="http://twitter.com/jesperpsvensson">Twitter</a> och <a href="http://instagram.com/jesperpsvensson">Instagram</a>, det går även bra att skriva några rader via <a href="mailto:jesperpsvensson@gmail.com">e-post</a>.
+  </p>
+</div>
