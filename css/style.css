@@ -259,7 +259,7 @@ footer p a:hover {
     font-size: 35px;
   }
 
-  #emaillink {
+  .link {
         display: none;
     }
 
