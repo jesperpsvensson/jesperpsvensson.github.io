@@ -233,6 +233,11 @@ footer p a:hover {
       #down:hover {
         width: 130px;
       }
+
+.link {
+  margin-left: 20px;
+}
+
 @media screen and (max-width: 768px) {
   #firstSection {
     background: url(../Bilder/bg2.png) center center no-repeat;
