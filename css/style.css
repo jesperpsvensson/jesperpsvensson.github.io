@@ -59,8 +59,10 @@ footer p a:hover {
 }
 
 #title {
-  font-family: "Megrim" ,'Courier New';
-  font-size:100px;
+  font-family: "Lato" ,'Courier New';
+  font-size:80px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 #firstSection {
