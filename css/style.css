@@ -1,5 +1,5 @@
 body {
-  font-family: 'Quicksand';
+  font-family: 'Montserrat';
   color: #464646;;
   background-color: #fdffff;
   font-weight: 400;
@@ -59,9 +59,9 @@ footer p a:hover {
 }
 
 #title {
-  font-family: "Anton" ,'Courier New';
+  font-family: 'Courier New';
   font-size: 100px;
-  letter-spacing: 2px;
+  letter-spacing: -1px;
 }
 
 #firstSection {
