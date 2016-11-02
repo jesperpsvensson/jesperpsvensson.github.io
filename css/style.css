@@ -230,21 +230,7 @@ footer p a:hover {
   margin-left: 20px;
 }
 
-.btn-link {
-  padding-top: 0;
-  margin-top: 0;
-  color: #464646;
-}
 
-.btn-link:hover {
-  background-color: #464646;
-  color: #fdffff;
-}
-
-.btn-link:active {
-  border: none;
-
-}
 
 @media screen and (max-width: 768px) {
   #firstSection {
