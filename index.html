@@ -21,7 +21,7 @@
         <nav>
           <ul>
             <li id="description">mobilt + webb</li>
-            <li class="link"><a href="/blogg">blogg</a></li>
+            <li class="link"><a href="#" id="portfolio" class="more">om</a></li>
             <li class="link"><a href="#" id="portfolio">portfolio</a></li>
           </ul>
         </nav>
@@ -32,7 +32,7 @@
           <div class="row">
             <h1 class="center" id="title"><span>JS Digital</span></h1>
             <p class="center lead" style="font-weight:400">En personlig portfolio</p>
-            <p class="center"><button class="btn btn-default" id="more">Läs mer</button></p>
+            <p class="center"><button class="btn btn-default more" >Läs mer</button></p>
           </div>
         </div>
       </section>
@@ -152,7 +152,7 @@
       $("#fourthSection").css('min-height', wh / 4 + "px");
       $("#title").css('margin-top', $(window).height() / 4 + 'px');
 
-      $("#more").click(function() {
+      $(".more").click(function() {
           $('html, body').animate({
               scrollTop: $("#secondSection").offset().top
           }, 1500);
