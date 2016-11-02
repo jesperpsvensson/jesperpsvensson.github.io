@@ -95,8 +95,8 @@ footer p a:hover {
   margin-bottom: 100px;
 }
 
-      #topDiv h1{
-        margin-top: 30px;
+#topDiv h1{
+  margin-top: 30px;
         font-weight: 500;
         background-color: rgba(51,51,51,0.5);
         text-align: left;
@@ -196,22 +196,7 @@ footer p a:hover {
 
       }
 
-      .pic{
-        width: 400px;
-        height: 400px;
-        border-radius: 200px;
-        background: url(Bilder/cabinsquare.png) center center no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-
-
-      }
-
+      
       #firstSection img {
         display: block;
         margin-left: auto;
