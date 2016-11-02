@@ -196,7 +196,7 @@ footer p a:hover {
 
       }
 
-      
+
       #firstSection img {
         display: block;
         margin-left: auto;
@@ -228,6 +228,16 @@ footer p a:hover {
 
 .link {
   margin-left: 20px;
+}
+
+.btn-link {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.btn-link:active {
+  border: none;
+  
 }
 
 @media screen and (max-width: 768px) {
