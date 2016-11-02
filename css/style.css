@@ -236,6 +236,11 @@ footer p a:hover {
   color: #464646;
 }
 
+.btn-link:hover {
+  background-color: #464646;
+  color: #fdffff;
+}
+
 .btn-link:active {
   border: none;
 
