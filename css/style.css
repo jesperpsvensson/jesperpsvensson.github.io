@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat';
+  font-family: 'Raleway', "Helvetica", serif;
   color: #464646;;
   background-color: #fdffff;
   font-weight: 300;
@@ -60,7 +60,7 @@ footer p a:hover {
 }
 
 #title {
-  font-family: 'Courier New';
+  font-family: 'Courier New', cursive;
   font-size: 80px;
   letter-spacing: -1px;
 }
