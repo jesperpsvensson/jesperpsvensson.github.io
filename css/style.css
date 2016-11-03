@@ -19,6 +19,11 @@ a:hover {
   color: #00ddd8;
 }
 
+a:visited {
+  color: #767676;
+  text-decoration: underline; 
+}
+
 h1 {
   font-size: 500;
 }
