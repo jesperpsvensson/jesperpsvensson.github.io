@@ -21,7 +21,7 @@ a:hover {
 
 a:visited {
   color: #767676;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 h1 {
@@ -61,6 +61,15 @@ footer p a:hover {
 .btn-custom:hover {
   background-color: #969696;
   color: #fdffff;
+}
+
+.btn-custom:visited {
+  background: #464646;
+  color: #fdffff;
+  font-size: 18px;
+  border: none;
+  border-radius: 0;
+  text-decoration: none;
 }
 
 #title {
