@@ -2,7 +2,8 @@
  * Site header
  */
 .site-header {
-
+    /*border-top: 5px solid $grey-color-dark;*/
+    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -10,17 +11,12 @@
 }
 
 .site-title {
-    font-size: 400%;
-    font-weight: 500;
-    color: $brand-color;
+    font-size: 24px;
+    font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-top: $spacing-unit * 2;
-    margin-bottom: $spacing-unit * 2;
-    padding-bottom: $spacing-unit;
-    border-bottom: 5px solid #e64219;
-
-
+    margin-bottom: 0;
+    float: left;
 
     &,
     &:visited {
@@ -29,16 +25,76 @@
 }
 
 .site-nav {
-      text-align: center;
-      margin: $spacing-unit;
+    float: right;
+    line-height: 56px;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: $spacing-unit / 2;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 20px;
+        }
+    }
 }
 
-.header-image {
-  margin: $spacing-unit auto;
-  width: 150px;
-  border-radius: 75px;
-  opacity: 0.7;
-}
 
 
 /**
@@ -47,8 +103,6 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    color: lighten($text-color, 50%);
-    font-size: 80%;
 }
 
 .footer-heading {
@@ -129,11 +183,8 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit/4;
-    }
-
-    > li p {
-      font-family: 'Merriweather';
+        margin-bottom: $spacing-unit;
+        font-weight: 700;
     }
 }
 
@@ -143,35 +194,30 @@
 }
 
 .post-link {
-    display: inline;
-    font-size: 1em;
+    display: block;
+    font-size: 24px;
 }
+
+
 
 /**
  * Posts
  */
- .post {
-   text-align: left;
-
- }
-
 .post-header {
-    margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
 }
 
 .post-title {
-    //font-size: 42px;
-    //letter-spacing: -1px;
-    line-height: 1;
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1.2;
 
     @include media-query($on-laptop) {
-        //font-size: 36px;
+        font-size: 36px;
     }
 }
 
 .post-content {
-    font-family: 'Merriweather';
     margin-bottom: $spacing-unit;
 
     h2 {
@@ -197,50 +243,5 @@
             font-size: 18px;
         }
     }
-}
 
-.bold {
-  font-weight: bold;
-}
-
-.light-text {
-  font-size: 15px;
-}
-
-.aboutBtn {
-  color: #f1f1f1;
-  background-color: #424242;
-  font-weight: normal;
-  padding: 10px;
-  border-radius: 2px;
-}
-
-.aboutBtn:hover {
-  background-color: #ffff99;
-}
-
-.marginTop {
-  margin-top: 30px;
-}
-
-.backBtn {
-  font-weight: 300;
-  font-size: 0.8em;
-  text-decoration: underline;
-  margin-bottom: 40px;
-
-}
-
-.excerpt {
-  font-family: 'Merriweather' !important;
-}
-
-.divider {
-  color: $grey-color-light;
-  margin: 30px 0 30px 0;
-}
-
-nav a {
-  padding: 20px;
-  margin: 20px 0;
 }

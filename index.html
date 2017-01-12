@@ -2,121 +2,22 @@
 layout: default
 ---
 
-  <body>
-    <div id="topDiv">
-      <div class="container navbar-fixed-top" id="logoDiv">
-        <img src="Bilder/jsdi.png" id="meny">
-        <nav>
-          <ul>
-            <li id="description">mobilt + webb</li>
-            <li class="link"><a href="#" id="portfolio">portfolio</a></li>
-            <li class="link"><a href="#" class="more">om</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-      <section id="firstSection">
-        <div class="container">
-          <div class="row">
-            <h1 class="center" id="title"><span>JS Digital</span></h1>
-            <p class="center lead" style="font-weight:300">En personlig portfolio</p>
-            <p class="center"><button class="btn btn-default more" >Läs mer</button></p>
-          </div>
-        </div>
-      </section>
-      <section id="secondSection">
-        <div class="container" id="aboutDiv">
-          <div class="row marginTop marginBottom">
-            <div class="col-sm-4">
-              <h2 class="">Om JS DIGITAL</h2>
-              <div class="border marginBottom"></div>
-            </div>
-            <div class="col-sm-8">
-              <p>JS Digital är hemvist för mina digitala kreationer. Med detta innefattas webbutveckling, kod och design.</p>
-              <p>
-                Jag är reservdelsman till yrket med ett brinnade intresse för teknik och digitala medier. Detta har lett till att jag med hjälp av olika kurser på webben har lärt mig om programmering och webbutveckling.</p>
-              <p>
-              <p>
-                / Jesper Svensson
-              </p>
-                <button id="contact" class="btn btn-custom marginTop">Kontakta mig</button>
-              </p>
-            </div>
-          </div>
-        </div>
-    </section>
-    <section id="thirdSection">
-      <div class="container portContainer">
-        <div class="row marginTop">
-          <div class="col-sm-4">
-              <h1 class="">Portfolio</h1>
-              <div class="border marginBottom"></div>
-            </div>
-        </div>
-        <div class="row marginTop">
-          <div class="col-sm-6">
-            <h3 class="marginBottom">Snicksnack - iOS</h3>
-            <p>En enkel frågesportsapp för iPhone. </p>
-            <p class="marginTop"><span class="bold">Min roll:</span> Design, kodning.</p>
-            <p><span class="bold">Verktyg:</span> Xcode, Swift.</p>
-            <p><a href="https://github.com/jesperpsvensson/Snicksnack" target="_blank" class="btn btn-custom marginTop">Läs mer</a></p>
-          </div>
-          <div class="col-sm-6 marginBottom">
-            <img src="Bilder/snicksnack.png" class="img-responsive centerImg marginBottom mockupImg">
-          </div>
-        </div>
-        <hr>
-        <div class="row marginTop">
-          <div class="col-sm-6">
-            <h3 class="marginBottom">EACH - Våra utgifter - iOS <small><em> under arbete</em></small></h3>
-            <p>En app för par eller sammanboende för att logga och dela utgifter.</p>
-            <p class="marginTop"><span class="bold">Min roll:</span> Design, kodning.</p>
-            <p><span class="bold">Verktyg:</span> Xcode, Swift och Pixelmator.</p>
-            <p><a href="each.html" class="btn btn-custom marginTop">Läs mer</a></p>
-          </div>
-          <div class="col-sm-6 marginBottom">
-            <img src="Bilder/each.png" class="img-responsive centerImg marginBottom mockupImg">
-          </div>
-        </div>
-        <hr>
-        <div class="row marginTop">
-          <div class="col-sm-6">
-            <h3 class="marginBottom">Prick - Pytonista iOS</h3>
-            <p>Ett litet spel för de yngre barnen som lär sig siffror. </p>
-            <p class="marginTop"><span class="bold">Min roll:</span> Design, kodning.</p>
-            <p><span class="bold">Verktyg:</span> Pythonista, Python.</p>
-            <p><a href="https://github.com/jesperpsvensson/Pythonista-scripts" target="_blank"  class="btn btn-custom marginTop">Läs mer</a></p>
-          </div>
-          <div class="col-sm-6 marginBottom">
-            <img src="Bilder/prick.png" class="img-responsive centerImg marginBottom mockupImg">
-          </div>
-          </div>
-        <hr>
-        <div class="row marginTop">
-          <div class="col-sm-6">
-            <h3 class="marginBottom">JS Digital - webb</h3>
-            <p class="">Min egen webbsida samt portfolio.</p>
-            <p class="marginTop"><span class="bold">Min roll:</span> Design, kodning.</p>
-            <p><span class="bold">Verktyg:</span> HTML, CSS, JQuery, JavaScript, Jekyll, Bootstrap, Pixelmator.</p>
-            <p><a href="jsdigital.html" class="btn btn-custom marginTop">Läs mer</a></p>
-          </div>
-          <div class="col-sm-6 marginBottom">
-            <img src="Bilder/jsdigi.png" class="img-responsive centerImg marginBottom mockupImg">
-          </div>
-          </div>
-          <hr>
-          <div class="row marginTop">
-            <div class="col-sm-6">
-              <h3 class="marginBottom">Bakmått - webb</h3>
-              <p class="">Med Bakmått kan man enkelt översätta mått och enheter som kan förekomma i köket och framförallt vid bakning.</p>
-              <p class="marginTop"><span class="bold">Min roll:</span> Design, kodning.</p>
-              <p><span class="bold">Verktyg:</span> HTML, CSS, JQuery, JavaScript, Bootstrap, Pixelmator.</p>
-              <p><a href="http://jesperpsvensson.github.io/bakmatt" target="_blank" class="btn btn-custom marginTop">Läs mer</a></p>
-            </div>
-            <div class="col-sm-6 marginBottom">
-              <img src="Bilder/bakmatt.png" class="img-responsive centerImg marginBottom mockupImg">
-            </div>
-            </div>
-        </div>
-        </div>
-    </section>
+<div class="home">
+
+  <h1 class="page-heading">Inlägg</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} :</span>
+
+
+          <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

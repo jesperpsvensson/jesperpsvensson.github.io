@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jesperpsvensson.github.io</title>
+    <description></description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 12 Jan 2017 11:20:22 +0100</pubDate>
+    <lastBuildDate>Thu, 12 Jan 2017 11:20:22 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Jottings, antekningar i Dropbox</title>
+        <description>&lt;p&gt;I snart ett år har jag sparat mina anteckningar som textfiler i Dropbox. Nästan lika lång tid har jag använt Jottings för att komma åt och redigera dessa anteckningar på iOS.&lt;/p&gt;
+
+&lt;p&gt;Appens enkla design gör den lätt att använda, det känns som utvecklaren Thomas Guthrie har fokuserat på funktionalitet framför design och i detta fallet tycker jag att det är bra.&lt;/p&gt;
+
+&lt;h2 id=&quot;funktioner&quot;&gt;Funktioner&lt;/h2&gt;
+
+&lt;p&gt;I Jottings väljer du &lt;strong&gt;en&lt;/strong&gt; mapp från Dropbox för att synka och i mitt arbetsflöde passar detta perfekt&lt;sup id=&quot;fnref:nvalt&quot;&gt;&lt;a href=&quot;#fn:nvalt&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Jag har istället valt att organisera anteckningar med taggar. Genom att sätta ett &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; före en fras uppfattar Jottings detta som en tagg eller etikett. Dessa visas som en lista i appen och det går att välja vilka taggar man vill filtrera på.&lt;/p&gt;
+
+&lt;p&gt;Jag skriver alla anteckningar i Markdown vilket Jottings stödjer men du kan även stänga av markdownsyntax i inställningar. I delningsmenyn finns åtgärder för att förhandsgranska Markdown samt att kopiera Markdown som HTML. Detta gör att jag nu och då skriver artiklar direkt i en anteckningen där idéen först fångats&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jottings har även stöd för &lt;a href=&quot;https://itunesapple.com/se/app/textexpander-3-+-custom-keyboard/id917416298?mt=8&amp;amp;uo=4&amp;amp;at=10lKZy&amp;amp;ct=jesper&quot;&gt;TextExpander&lt;/a&gt; och ett väl fungerande url-schema. Det var faktiskt när jag sökte efter en app som stödjer sökning via url-schema som jag hittade Jottings. Förutom sök går det även att skapa ny anteckning eller öppna befintlig genom url i till exempel &lt;a href=&quot;https://itunes.apple.com/se/app/drafts-4-quickly-capture-notes/id905337691?mt=8&amp;amp;uo=4&amp;amp;at=10lKZy&amp;amp;ct=jesper&quot;&gt;Drafts&lt;/a&gt; eller &lt;a href=&quot;https://itunes.apple.com/se/app/launch-center-pro-shortcut/id532016360?mt=8&amp;amp;uo=4&amp;amp;at=10lKZy&amp;amp;ct=jesper&quot;&gt;Launch Center Pro&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;När en anteckning redigeras visas en extra rad ovanför tangentbordet där det finns en snabbtangent för etiketter samt en indikation på hur många ord som anteckningen innehåller.&lt;/p&gt;
+
+&lt;h2 id=&quot;sammanfattning&quot;&gt;Sammanfattning&lt;/h2&gt;
+
+&lt;p&gt;Jag tycker att Jottings är en app som gör jobbet och rekommenderar den för er som vill förvara era anteckningar i textfiler och kan tänka er att förvara alla i en och samma mapp. Men trots detta är det saker jag önskar i framtida versioner, bland annat stöd för sök genom Spotlight. Men i det stora hela är jag nöjd med appen precis som den är.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://itunes.apple.com/se/app/jottings-notes-for-dropbox/id603548667?mt=8&amp;amp;uo=4&amp;amp;at=10lKZy&amp;amp;ct=jesper&quot;&gt;Jottings - Notes for Dropbox&lt;/a&gt; är en universal-app som finns att hämta i App Store [40 kr]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:nvalt&quot;&gt;
+      &lt;p&gt;Jag använder nvALT på min Mac. &lt;a href=&quot;#fnref:nvalt&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Detta inlägg är skrivet direkt i Jottings på min iPad. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 29 Dec 2016 14:18:55 +0100</pubDate>
+        <link>http://yourdomain.com/2016/12/29/jottings.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/12/29/jottings.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hur jag använder Todoist</title>
+        <description>&lt;h2 id=&quot;bakgrund--inledning&quot;&gt;Bakgrund / inledning&lt;/h2&gt;
+
+&lt;p&gt;Jag har använt Todoist i snart år för att hålla ordning på mina åtaganden och saker jag måste göra. Det har varit ett produktivt år med många olika projekt i mina olika ansvarsområden och de flesta flyter på eller är färdigställda och detta mycket tack vare Todoist. Några gånger under året har jag sneglat på andra alternativ så som Things, Omnifocus och 2DO men hela tiden kommit tillbaka till Todoist just för att den passar mina behov som handen i handsken. Därför tänkte jag dela med mig av hur jag använder Todoist i min vardag.&lt;/p&gt;
+
+&lt;h2 id=&quot;introduktion-till-todoist&quot;&gt;Introduktion till Todoist&lt;/h2&gt;
+
+&lt;p&gt;För er som inte är speciellt bekanta med Todoist är detta en applikation för att hantera uppgifter som finns för de flesta plattformar och går att använda som en gratistjänst eller köpa premium och samtidigt få tillgång till flera funktioner. Jag har nästan från början använt mig av Premium-versionen, med vilken det tillkommer flera enligt mig viktiga funktioner som bland annat påminnelser, möjligheten att skapa och använda filter och etiketter. Dessa funktioner är hörnstenarna i mitt arbetssätt.&lt;/p&gt;
+
+&lt;h2 id=&quot;tillvgagngsstt&quot;&gt;Tillvägagångssätt&lt;/h2&gt;
+
+&lt;p&gt;Mitt sätt att ta mig an mina uppgifter hämtar mycket inspiration från &lt;a href=&quot;https://en.m.wikipedia.org/wiki/Getting_Things_Done&quot;&gt;David Allens Getting Things Done-metodik&lt;/a&gt; men jag följer den inte riktigt fullt ut. Jag dumpar mycket av mina uppgifter i min inkorg för att sedan organisera dem i projekt och ge dem de rätta etiketterna. Todoist saknar genomgångsfunktion som återfinns i bland annat i OmniFocus och det är något jag ibland saknar men istället får jag helt enkelt se till att gå igenom mina projekt och uppgifter på en veckobasis.&lt;/p&gt;
+
+&lt;h3 id=&quot;projekt&quot;&gt;Projekt&lt;/h3&gt;
+
+&lt;p&gt;I Todoist finns möjligheten att orgaisera projekt i olika nivåer och detta är smidigt om man vill dölja och inte se alla listor eller projekt på en gång.  Den översta nivån har jag delar up i tre olika delar, &lt;em&gt;“Livet”&lt;/em&gt;, &lt;em&gt;“Paus”&lt;/em&gt; och &lt;em&gt;“Someday”&lt;/em&gt;. Under &lt;em&gt;“Livet”&lt;/em&gt; har jag alla aktiva projekt och uppgifter upp delat i mina olika ansvarsområden.  De delar jag in enligt följande:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/todoist-projekt.png&quot; alt=&quot;Todoist projekt&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Under &lt;em&gt;“Paus”&lt;/em&gt; har jag alla projekt som påbörjade fast jag inte kommer att ägna någon tid under den kommande veckan. Som nämnt tidigare gör jag en veckogenomgång varje söndag och då går jag igenom alla projekt och uppgifter och genom att flytta projekt till denna flik så är detta lättare att fokusera på de projekt som jag tänker ägna tid fram till nästa veckogenomgång.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Someday&lt;/em&gt; kanske talar för sig självt men här skriver jag upp uppgifter och projekt jag vill utföra i framtiden. Här blandar de olike ansvarsområdena huller om buller, det är en enda lång lista. Denna lista går jag inte igenom varje vecka utan mer en gång  i månaden eller ibland ännu mer sällan.&lt;/p&gt;
+
+&lt;h3 id=&quot;etiketter&quot;&gt;Etiketter&lt;/h3&gt;
+
+&lt;p&gt;Etiketter är nog den viktigaste funktionen för mig i Todoist, utan etiketter hade jag haft svårt att organisera mig på ett bra sätt. De etiketter jag använder är de listade nedan:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;I&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;II&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;III&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ärende&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kontakta&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;paus&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;start&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;väntande&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;De tre första &lt;em&gt;I&lt;/em&gt; till &lt;em&gt;III&lt;/em&gt; är etiketter som syftar både till energin och tid som går åt till att utföra en uppgift. Oftast går det hand i hand och jag har bantat ner detta till tre etiketter. Etiketterna &lt;em&gt;ärende&lt;/em&gt; och &lt;em&gt;kontakta&lt;/em&gt; talar för sig själva, den ena är för alla ärenden och den andra är för när någon måste kontaktas för att uppgiften skall kunna utföras.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;paus&lt;/em&gt; använder jag för de uppgifter som jag inte tänkter ägna någon tid fram till nästa veckogenomgång. Etiketten &lt;em&gt;start&lt;/em&gt; är nog den etikett jag använder mest, Todoist saknar funktionen att sätta statdatum på en uppgift och detta har jag löst genom att tilldela uppgiften etiketten &lt;em&gt;start&lt;/em&gt; sedan mitt önskade startdatum som förfallodatum. Genom att jag i alla  filter som sollar bort alla uppgifter med etiketten &lt;em&gt;start&lt;/em&gt; så blir dessa inte synliga för mig i mina olika sökfilter. Till sist har jag även en etikett för saker som är &lt;em&gt;väntande&lt;/em&gt; och det är uppgifter där jag väntar på svar från andra innan jag kan göra något åt uppgiften i fråga.&lt;/p&gt;
+
+&lt;h3 id=&quot;filter&quot;&gt;Filter&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/todoist-filter.png&quot; alt=&quot;Todoist filter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Todoist har en sofistikerad sökfunktion där det går att sortera uppgifter efter önskemål, det är enkelt att inkludera eller exkludera olika projekt och etiketter  i sökningar och dessa sökningar går att spara i så kallade filter. Hemligheten med filter är nog att inte skapa för många då blir det lätt rörigt och det skälper ofta mer än vad det hjälper. Jag har bantat ner mina filter till följande:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Flaggat&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Sökord: &lt;em&gt;p1&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Nästa åtgärd&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Sökord: &lt;em&gt;no date &amp;amp; !p:paus &amp;amp; !p:somday &amp;amp; !@rutin &amp;amp; !@paus &amp;amp; !@start&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Kommande månad&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Sökord: &lt;em&gt;30 days&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Paus &amp;amp; Start&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Sökord: *p:paus &amp;amp; @paus&lt;/td&gt;
+          &lt;td&gt;@start*&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Alla&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Sökord:  &lt;em&gt;see all&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I Todoist finns funktionen att flagga uppgifter efter prioritet med fyra stycken nivåer, denna funktion använder jag inte men istället använder jag den röda flaggan för att flagga uppgifter utan förfallodatum som jag vill ge lite extra uppmärksamhet, dessa hittar jag under filtret &lt;em&gt;Flaggat&lt;/em&gt;. Nästa filter kallar jag &lt;em&gt;Nästa åtgärd&lt;/em&gt; det är det mest avancerade filtret jag använder, det sorterat ut uppgifter med etiketterna &lt;em&gt;rutin&lt;/em&gt;, &lt;em&gt;paus&lt;/em&gt; och &lt;em&gt;start&lt;/em&gt;, som inte har något förfallodatum och inte tillhör något av projekten &lt;em&gt;Paus&lt;/em&gt; eller &lt;em&gt;Someday&lt;/em&gt;. Detta ger mig en lista med saker som jag kan utföra och om jag genomfört min veckogenomgång på ett bra sätt ska denna lista vara ganska kort och inte kännas alltför övervälmande.&lt;/p&gt;
+
+&lt;p&gt;De sista tre filtren använder jag mest i genomgångssyfte och &lt;em&gt;Kommande månad&lt;/em&gt; ger mig en lista med uppgifter med förfallodatum inom 30 dagar. &lt;em&gt;Paus &amp;amp; Start&lt;/em&gt;  visar alla uppgifter med startdatum och som för närvarande är pausade. &lt;em&gt;Alla&lt;/em&gt; visar som du säkert gissat alla uppgifter.&lt;/p&gt;
+
+&lt;h2 id=&quot;sammanfattning&quot;&gt;Sammanfattning&lt;/h2&gt;
+
+&lt;p&gt;Trots att jag tycker att Todoist är en riktigt bra tjänst för att sköta projekt och uppgifter så är det ett par saker jag har att önska. Jag skulle vilja ha möjligheten att sätta förfallodatum på ett helt projekt och jag skulle även vilja ha ett inbyggt stöd för startdatum. Vi får helt enkelt se vad som händer i framtiden, teamet bakom Todoist jobbar aktivt med utvecklingen och uppdaterar hela tiden apparna så kanske kan vi få se dessa funktioner snart.&lt;/p&gt;
+
+&lt;p&gt;Har du inte testat Todoist så tycker jag du ska testa att ladda ner gratisversionen och se om den passar dig.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Dec 2016 14:18:55 +0100</pubDate>
+        <link>http://yourdomain.com/todoist/produktivitet/2016/12/28/Hur-jag-anva-nder-Todoist.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/todoist/produktivitet/2016/12/28/Hur-jag-anva-nder-Todoist.html</guid>
+        
+        
+        <category>todoist</category>
+        
+        <category>produktivitet</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 21 Dec 2016 14:18:55 +0100</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2016/12/21/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/12/21/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
