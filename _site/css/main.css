@@ -67,12 +67,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #DC4623;
+  color: #568474;
   text-decoration: none; }
   a:visited {
-    color: #dc4623; }
+    color: #568474; }
   a:hover {
-    color: #DC4623;
+    color: #568474;
     text-decoration: underline; }
 
 /**
@@ -152,28 +152,38 @@ pre {
   /*border-top: 5px solid $grey-color-dark;*/
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
+  height: 400px;
+  background: url(/images/darkroad.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   position: relative; }
 
 .site-title {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 300;
   line-height: 56px;
-  letter-spacing: -1px;
+  letter-spacing: 1.8px;
   margin-bottom: 0;
-  float: left; }
+  text-align: center;
+  padding-top: 180px;
+  /*float: right;*/
+  color: #fdffff !important;
+  text-shadow: 1px 1px #999; }
   .site-title, .site-title:visited {
     color: #424242; }
 
 .site-nav {
-  float: right;
+  text-align: center;
   line-height: 56px;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 16px;
   text-transform: uppercase; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #333;
+    color: #fdffff !important;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
@@ -186,6 +196,8 @@ pre {
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
+      .site-nav .page-link {
+        color: #333 !important; }
       .site-nav .menu-icon {
         display: block;
         float: right;
@@ -239,16 +251,16 @@ pre {
   padding-left: 15px; }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (30px / 2));
-  width: calc(35% - (30px / 2)); }
+  width: -webkit-calc(10% - (30px / 2));
+  width: calc(10% - (30px / 2)); }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (30px / 2));
   width: calc(20% - (30px / 2)); }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (30px / 2));
-  width: calc(45% - (30px / 2)); }
+  width: -webkit-calc(60% - (30px / 2));
+  width: calc(60% - (30px / 2)); }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
@@ -292,6 +304,7 @@ pre {
  * Posts
  */
 .post-header {
+  margin-top: 30px;
   margin-bottom: 30px; }
 
 .post-title {

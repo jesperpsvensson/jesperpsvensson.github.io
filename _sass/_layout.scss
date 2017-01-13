@@ -5,18 +5,27 @@
     /*border-top: 5px solid $grey-color-dark;*/
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    height: 400px;
+    background: url(/images/darkroad.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 300;
     line-height: 56px;
-    letter-spacing: -1px;
+    letter-spacing: 1.8px;
     margin-bottom: 0;
-    float: left;
+    text-align: center;
+    padding-top: 180px;
+    /*float: right;*/
+    color: #fdffff !important;
+    text-shadow: 1px 1px #999;
 
     &,
     &:visited {
@@ -25,18 +34,19 @@
 }
 
 .site-nav {
-    float: right;
+    text-align: center;
     line-height: 56px;
-    font-weight: 900;
+    font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
+
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: #fdffff !important;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -53,6 +63,10 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+
+        .page-link {
+            color: $text-color !important;
+        }
 
         .menu-icon {
             display: block;
@@ -130,8 +144,8 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(10% - (#{$spacing-unit} / 2));
+    width:         calc(10% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
@@ -140,8 +154,8 @@
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(60% - (#{$spacing-unit} / 2));
+    width:         calc(60% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -204,6 +218,7 @@
  * Posts
  */
 .post-header {
+    margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
 }
 
