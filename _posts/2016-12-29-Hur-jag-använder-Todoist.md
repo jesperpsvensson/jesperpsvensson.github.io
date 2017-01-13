@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  Hur jag använder Todoist
 date:   2016-12-28 14:18:55 +0100
 categories: todoist produktivitet
