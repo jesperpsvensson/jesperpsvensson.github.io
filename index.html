@@ -72,8 +72,10 @@
     <script type="text/javascript">
     var wh = $(window).height();
     $(".customRow").css('min-height', wh +"px");
+    if ($(window).width > 700) {
+      $("#picDiv").css('min-height', wh +"px");
+    }
 
-    	$("#picDiv").css('min-height', wh +"px");
 
 
     </script>
