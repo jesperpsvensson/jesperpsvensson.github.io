@@ -1,153 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Cantarell:300,400,700');
 
 body {
-	font-family: 'Inconsolata', 'Helvetica Neue', Helvetica;
-	font-weight: 400;
-	color: #777;
+  font-family: 'Cantarell';
+  background-color: #fdfdfd ;
+  color: #464646;
+  font-size: 16px;
 
-	line-height: 1.7;
-	letter-spacing: 2em:
-}
-
-h1,
-h2,
-h3,
-h4 {
-	font-weight: 500;
-	color: #666;
 }
 
 a {
-	color: #777;
-	border-bottom: 1px dotted #54964c;
-	padding-bottom: 2px;
+  color: #464646;
+  border-bottom: 1px dotted #464646;
 }
 
 a:hover {
-	text-decoration: underline;
-	color: #54964c;
-	padding-bottom: 4px;
-	border-bottom: 2px solid #54964c;
-	text-decoration: none;
+  border-bottom: 3px solid #7395b7;
+  color: #7395b7;
+  text-decoration: none;
+  padding-bottom: 5px;
 }
 
 img {
-	max-width: 100%;
+  margin-bottom: 30px;
 }
 
 p {
-	margin-top: 20px;
+  line-height: 30px;
 }
 
-p, ul, li, a {
-	font-size: 16px;
-
+#topSection {
+  background-color: #7395b7 ;
+  opacity: 0;
 }
 
-/* Klasser ================*/
+#aboutSection {
+  background-color: #fdfdfd;
+  opacity: 0;
+}
+
+#title {
+  border: 5px solid #fdfdfd;
+  padding: 10px;
+  font-weight: 700;
+  font-family: 'Fjalla One';
+  color: #fdfdfd;
+  letter-spacing: 0.1em;
+}
 
 .marginTop {
-	margin-top: 30px;
+  margin-top: 60px;
 }
 
-.bigMarginTop {
-	margin-top: 60px;
+.container {
+  margin: 0 auto;
+  max-width: 900px;
 }
-
-.paddingSides {
-	padding-left:80px;
-	padding-right: 80px;
-}
-
-.centerText {
-	text-align: center;
-}
-
-.greyText {
-	color: #969696;
-	font-weight: 900;
-}
-
-.border {
-	border: 1px solid #666;
-	opacity: 0.25;
-	margin: 10px 0 20px 0;
-	width: 70px;
-}
-
-.title {
-
-}
-
-.light {
-	opacity: 0.5;
-}
-
-/* ======================= */
-
-/* IDs ===================*/
-
-
-#picDiv {
-	position: fixed;
-	height: 100%;
-	background-color: #eee;
-	background: url(../images/j.png) center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#picDiv a {
-	border: none;
-}
-
-#picDiv a:hover {
-	border-bottom: 2px solid #54964c;
-}
-
-#contentDiv {
-	float: right;
-
-}
-
-/* ======================= */
-
-/* Media Queries ========= */
-
-@media screen and (max-width: 992px) {
-
-		body {
-			font-size: 18px;
-		}
-    #contentDiv {
-
-    }
-
-    #picDiv {
-			position: relative;
-    	height: 400px;
-    	width: 100%;
-    }
-
-    #title {
-    	font-size: 100%;
-    }
-
-    .paddingSides {
-	padding-left:40px;
-	padding-right: 40px;
-}
-
-.darker {
-	color: #111;
-	font-weight: bold;
-}
-
-
-
-}
-
-/* ======================= */
